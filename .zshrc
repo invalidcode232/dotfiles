@@ -110,6 +110,8 @@ alias ll="exa --icons -l"
 alias ls="exa --icons"
 alias la="exa --icons -l -a"
 alias vim="nvim"
+alias zip="ouch compress"
+alias unzip="ouch decompress"
 
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 
