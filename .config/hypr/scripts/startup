@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# Statusbar
+eww daemon &
+eww open bar &
+
+# Wallpaper
+hyprpaper &
+
+# Terminal
+foot --server &
