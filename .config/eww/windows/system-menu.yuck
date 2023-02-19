@@ -160,7 +160,7 @@
             :halign "start"
             :class "sys-text-mem")
           (label
-            :text "${round(EWW_RAM.used_mem / 1000000000, 0)} | ${round(EWW_RAM.total_mem / 1000000000, 0)}"
+            :text "${round(EWW_RAM.used_mem / 1000000000, 1)} | ${round(EWW_RAM.total_mem / 1000000000, 1)} GB"
             :halign "start"
             :class "sys-text-sub"))))
 
