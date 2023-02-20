@@ -114,10 +114,13 @@ alias la="exa --icons -l -a"
 alias vim="nvim"
 alias zip="ouch compress"
 alias unzip="ouch decompress"
+alias cat="bat"
 
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
+
+export BAT_THEME="Catppuccin-mocha"
 
 nitch
