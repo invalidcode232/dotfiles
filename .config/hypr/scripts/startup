@@ -9,3 +9,7 @@ hyprpaper &
 
 # Terminal
 foot --server &
+
+# Kill any running thunar instance and run daemon
+thunar -q &
+thunar --daemon &
