@@ -120,6 +120,7 @@ ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
+eval "$(mcfly init zsh)"
 
 export BAT_THEME="Catppuccin-mocha"
 
