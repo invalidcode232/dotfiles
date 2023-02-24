@@ -10,6 +10,9 @@ hyprpaper &
 # Terminal
 foot --server &
 
+# Polkit agent
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
 # Notification daemon
 pkill dunst &
 dunst &
