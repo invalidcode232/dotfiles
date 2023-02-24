@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Script to control volume and display notification
 
-iDIR="$HOME/.config/hypr/mako/icons"
+iDIR="$HOME/.config/dunst/icons"
 
 # Get Volume
 get_volume() {
@@ -31,12 +31,12 @@ notify_user() {
 
 # Increase Volume
 inc_volume() {
-	pactl set-sink-mute @DEFAULT_SINK@ false && pactl set-sink-volume @DEFAULT_SINK@ +5% && get_icon && notify_user
+	pactl set-sink-mute @DEFAULT_SINK@ false && pactl set-sink-volume @DEFAULT_SINK@ +5% && get_icon 
 }
 
 # Decrease Volume
 dec_volume() {
-	pactl set-sink-volume @DEFAULT_SINK@ -5% && get_icon && notify_user
+	pactl set-sink-volume @DEFAULT_SINK@ -5% && get_icon
 }
 
 # Toggle Mute

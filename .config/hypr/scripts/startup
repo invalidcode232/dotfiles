@@ -10,6 +10,10 @@ hyprpaper &
 # Terminal
 foot --server &
 
+# Notification daemon
+pkill dunst &
+dunst &
+
 # Kill any running thunar instance and run daemon
 thunar -q &
 thunar --daemon &
