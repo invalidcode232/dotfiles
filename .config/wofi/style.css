@@ -1,5 +1,7 @@
 window { 
   background: unset; 
+  font-family: "Jost *", Roboto, sans-serif;
+  font-size: 16px;
 }
 flowboxchild { outline-width: 0; }
 #outer-box {
