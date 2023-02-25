@@ -18,5 +18,9 @@ pkill dunst &
 dunst &
 
 # Kill any running thunar instance and run daemon
+pkill thunar &
 thunar -q &
 thunar --daemon &
+
+# Automatic disk mounting
+udiskie &
