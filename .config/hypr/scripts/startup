@@ -24,3 +24,6 @@ thunar --daemon &
 
 # Automatic disk mounting
 udiskie &
+
+# Night light
+wlsunset -l "-6.1" -L "106.8" &
