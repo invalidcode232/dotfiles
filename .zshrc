@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$PATH:$HOME/.cargo/bin
+export PATH=$HOME/bin:/usr/local/bin:$PATH:$HOME/.cargo/bin:$HOME/.config/emacs/bin
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CACHE_HOME="$HOME/.cache"
 
@@ -115,6 +115,7 @@ alias vim="nvim"
 alias zip="ouch compress"
 alias unzip="ouch decompress"
 alias cat="bat"
+alias pinfo="pacman -Q --info"
 
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 
